@@ -1,6 +1,6 @@
-# Foundation
-
-Build your Docker containers on a solid foundation.
+<p align=center><img align=center src="logo.png" width=200 /></p>
+<h3 align=center>f o u n d a t i o n</h3>
+<h6 align=center>build your Docker containers on a solid foundation</h6>
 
 ## Overview
 
