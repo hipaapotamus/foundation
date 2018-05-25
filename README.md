@@ -2,7 +2,7 @@
 <h3 align=center>f o u n d a t i o n</h3>
 <h6 align=center>Build your Docker containers on a solid foundation</h6>
 
-## Overview
+# Description
 
 Foundation intends to be a super lightweight base image for Docker applications. Foundation is influenced by [phusion/baseimage](https://github.com/phusion/baseimage-docker); however, it is built upon [alpine](https://github.com/gliderlabs/docker-alpine) and includes only a minimal set of tools compared to `phusion/baseimage`, allowing Foundation to act as a unopinionated, extendable base image while also keeping the image size to a minimum.
 
