@@ -1,6 +1,6 @@
 <p align=center><img align=center src="logo.png" width=200 /></p>
 <h3 align=center>f o u n d a t i o n</h3>
-<h6 align=center>build your Docker containers on a solid foundation</h6>
+<h6 align=center>Build your Docker containers on a solid foundation</h6>
 
 ## Overview
 
@@ -15,7 +15,7 @@ Foundation includes only two tools: [tini](https://github.com/krallin/tini), to 
 Foundation is super simply to use: simply make a Dockerfile that inherits from Foundation, add your build instructions, and set a `CMD`. Foundation will pass whatever you set as the arguments to `CMD` to `tini` when the container is started. Make sure to use the exec style, as opposed to the shell style, when setting `CMD`.
 
 ```Dockerfile
-FROM hipaapotomous/foundation:<VERSON>
+FROM hipaapotomous/foundation:<VERSION>
 
 # ...build instructions here...
 
